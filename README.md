@@ -31,7 +31,6 @@ A simple blog project built with Laravel and [Editor.js](https://editorjs.io/) f
 ```bash
 git clone https://github.com/usamaqasim3/laravel-blog.git
 cd laravel-blog
-```
 composer install
 npm install && npm run dev
 cp .env.example .env
@@ -40,7 +39,7 @@ php artisan migrate
 php artisan storage:link
 php artisan serve
 npm run dev
-
+```
  **Usage**
 Navigate to / or /posts/create to add a new blog post.
 
